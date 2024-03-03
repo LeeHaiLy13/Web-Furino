@@ -1,3 +1,8 @@
+.product b,
+.product p {
+  margin: 0;
+}
+
 .header {
   background-color: #FCF8F3;
   width: auto;
@@ -75,12 +80,10 @@
 
 .icon-left {
   left: 10px;
-  /* Đặt biểu tượng bên trái */
 }
 
 .icon-right {
   right: 10px;
-  /* Đặt biểu tượng bên phải */
 }
 
 .bi-cart2 {
@@ -154,7 +157,7 @@
   margin-left: 10px;
 }
 
-.cup {
+.icon-feature {
   display: block;
   float: left;
   margin-right: 10px;
@@ -163,18 +166,22 @@
 .our-product {
   text-align: center;
   display: flex;
-  /* Use flexbox for layout */
   justify-content: center;
   flex-wrap: wrap;
-  /* Allow products to wrap */
 }
 
 .product {
-  margin: 2rem;
+  margin: 1.5rem;
+  /* Điều chỉnh khoảng cách giữa các phần tử product */
   width: 16rem;
-  height: 27rem;
+  height: 26rem;
   background-color: #f4f5f7;
   text-align: left;
+
+}
+
+.title-prd {
+  margin: 10px;
 }
 
 .prd2 {
