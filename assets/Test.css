@@ -1,0 +1,236 @@
+.header {
+  background-color: #FCF8F3;
+  width: auto;
+  height: 800px;
+  position: relative;
+}
+
+.nav {
+  text-align: center;
+  height: 80px;
+  width: 100%;
+  display: flex;
+  /* Use flexbox for layout */
+  justify-content: center;
+
+}
+
+.dropdown {
+  float: left;
+  margin: 30px 20px 15px 20px;
+}
+
+
+.searchbar {
+  position: relative;
+  /* Đặt searchbar làm một điểm tham chiếu cho phần tử con */
+  float: left;
+  width: 400px;
+  height: 50px;
+  background-color: #fff;
+  margin: 30px 0px 0 50px;
+}
+
+.searchbar i.bi-search {
+  top: 50%;
+  transform: translateY(50%);
+}
+
+.bi-search {
+  margin-left: 10px;
+}
+
+.label-search {
+  float: right;
+  color: #7a7a7a;
+  transform: translateX(-80%);
+  margin-top: 10px;
+}
+
+.nav-icon {
+  float: right;
+  width: auto;
+  margin: 40px 10px 0 50px;
+
+}
+
+.icon-left,
+.icon-right {
+  position: absolute;
+  /* Đặt vị trí tuyệt đối để có thể căn chỉnh theo vị trí cha */
+  top: 50%;
+  /* Đặt ở giữa theo chiều dọc */
+  transform: translateY(-50%);
+  /* Dịch chuyển lên trên 50% của kích thước của chính nó */
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  background-color: #E89F71;
+  opacity: 0.4;
+  border-radius: 50%;
+  /* Để tạo hình tròn */
+  color: aliceblue;
+  padding: 12px;
+}
+
+.icon-left {
+  left: 10px;
+  /* Đặt biểu tượng bên trái */
+}
+
+.icon-right {
+  right: 10px;
+  /* Đặt biểu tượng bên phải */
+}
+
+.bi-cart2 {
+  margin: 2rem;
+}
+
+.img-gallery {
+  background-image: url(../assets/images/anh2.png);
+  background-repeat: no-repeat;
+  background-size: 100% 600px;
+  background-position: center;
+  height: 600px;
+  margin: 20px;
+  position: relative;
+}
+
+.hero-container {
+  position: relative;
+}
+
+.hero-content {
+  background-color: #fff;
+  width: 350px;
+  height: 380px;
+  opacity: 0.9;
+  margin-left: 10%;
+  margin-top: 100px;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  /* Sắp xếp các phần tử con theo chiều dọc */
+  justify-content: center;
+  /* Căn giữa theo chiều dọc */
+  align-items: center;
+}
+
+.title {
+  width: 280px;
+  height: auto;
+}
+
+.btn-hero {
+  border: none;
+  background-color: #E89F71;
+  color: #fff;
+  width: 280px;
+  /* Độ rộng của button */
+  height: 40px;
+}
+
+.Feature {
+  display: flex;
+  /* Sử dụng flexbox để căn giữa các phần tử con */
+  justify-content: center;
+  /* Căn giữa theo chiều ngang */
+  align-items: center;
+  width: 100%;
+  /* Adjust width for responsiveness */
+  height: 70px;
+  margin: 6rem 0 5rem 0;
+}
+
+.group1 {
+  float: left;
+  margin-left: 8rem;
+}
+
+.text {
+  text-align: left;
+  width: 200px;
+  margin-left: 10px;
+}
+
+.cup {
+  display: block;
+  float: left;
+  margin-right: 10px;
+}
+
+.our-product {
+  text-align: center;
+  display: flex;
+  /* Use flexbox for layout */
+  justify-content: center;
+  flex-wrap: wrap;
+  /* Allow products to wrap */
+}
+
+.product {
+  margin: 2rem;
+  width: 16rem;
+  height: 27rem;
+  background-color: #f4f5f7;
+  text-align: left;
+}
+
+.prd2 {
+  opacity: 0.5;
+}
+
+.img-prd {
+  text-align: center;
+  width: 16rem;
+  height: 19rem;
+}
+
+.btn-show {
+  text-align: center;
+}
+
+.inspirations {
+  width: auto;
+  height: 600px;
+  background-color: #FCF8F3;
+  position: relative;
+
+}
+
+.inspirations-cont {
+  width: 28rem;
+  height: 12rem;
+  background-color: aliceblue;
+  margin-left: 12%;
+  margin-top: 10%;
+  position: absolute;
+}
+
+.inspirations-img {
+  width: 450px;
+  height: 500px;
+  float: right;
+}
+
+.inspirations-right {
+  margin-right: 10%;
+  margin-top: 5%;
+}
+
+.cont {
+  width: 8rem;
+  height: 100px;
+  background-color: white;
+  opacity: 0.8;
+  float: left;
+}
+
+.icon-next {
+  width: 40px;
+  height: 40px;
+  background-color: #E89F71;
+  float: left;
+  text-align: center;
+}
